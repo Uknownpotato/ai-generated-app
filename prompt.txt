@@ -1,0 +1,20 @@
+1. "Skriv ett Python-skript som visar en enkel TUI (textbaserad meny) där användaren kan välja att installera: Python (om det behövs), Visual Studio Code, SQLite och Discord. Scriptet ska också skapa mapparna ~/Projects/Privat och ~/Projects/Jobb. Använd bara standardbiblioteket så långt det är möjligt. Kommentera koden tydligt. Varje del av koden ska märkas med vilken prompt den tillhör."
+
+2. "Skriv Python-kod som kan installera Visual Studio Code på en Linux- eller macOS-dator via terminalkommandon. Använd standardbiblioteket subprocess för att köra systemkommandon. Koden ska kontrollera om VS Code redan är installerat och bara installera om det behövs. Kommentera koden tydligt och markera vilken prompt koden tillhör."
+
+3. "Integrera koden från Prompt 2 (installera Visual Studio Code) in i Python-skriptet från Prompt 1. Ersätt den tidigare tomma install_vscode()-funktionen med den nya funktionen från Prompt 2. Se till att menysystemet och scriptets struktur fortfarande fungerar som tidigare. Kommentera var integrationen sker och märk koden tydligt med referens till respektive prompt."
+
+4. "Skriv Python-kod som kontrollerar om Python 3 är installerat på en Linux- eller macOS-dator. Om Python 3 inte finns, försök installera det med antingen Homebrew (för macOS) eller apt (för Linux/Ubuntu). Använd subprocess från standardbiblioteket för att köra systemkommandon. Kommentera koden tydligt och märk vilken prompt koden tillhör."
+
+5. "Integrera koden från Prompt 4 (installera Python) in i Python-skriptet från tidigare prompts. Lägg till funktionen install_python() i skriptet och uppdatera menysystemet (main_menu()) så att användaren kan välja att installera Python 3. Se till att kommentarerna tydligt anger vilken prompt varje koddel kommer från."
+
+6. "Skriv Python-kod som installerar SQLite på en Linux- eller macOS-dator om det inte redan är installerat. Använd shutil.which() för att kontrollera om kommandot sqlite3 finns. Använd subprocess från standardbiblioteket för att köra installationskommandon. På macOS ska Homebrew användas och på Linux ska apt användas. Kommentera koden tydligt och märk vilken prompt koden tillhör."
+
+7. "Integrera koden från Prompt 6 (installera SQLite) i det befintliga Python-skriptet. Ersätt den tidigare tomma install_sqlite()-funktionen med den nya koden från Prompt 6. Se till att menysystemet (main_menu()) fortfarande anropar install_sqlite() korrekt. Kommentera var integrationen sker och märk tydligt vilken prompt varje koddel tillhör."
+
+8. "Skriv Python-kod som installerar Discord på en Linux- eller macOS-dator om det inte redan är installerat. Använd shutil.which() för att kontrollera om Discord är installerat. Använd subprocess från standardbiblioteket för att köra systemkommandon. På macOS ska Homebrew användas och på Linux ska apt användas. Kommentera koden tydligt och märk vilken prompt koden tillhör."
+
+9. "Integrera koden från Prompt 8 (installera Discord) i det befintliga Python-skriptet. Ersätt den tidigare tomma install_discord()-funktionen med den nya koden från Prompt 8. Se till att menysystemet (main_menu()) fortfarande anropar install_discord() korrekt. Kommentera var integrationen sker och märk tydligt vilken prompt varje koddel tillhör."
+
+10. "Testa det kompletta Python-skriptet som skapats genom tidigare prompts. Kör programmet och testa varje menyval: installation av Python, Visual Studio Code, SQLite, Discord samt skapande av mappstrukturen. Bekräfta att menysystemet fungerar korrekt, att alla funktioner anropas utan fel, och att installationerna hanteras på rätt sätt (eller ger tydliga felmeddelanden om installation inte kan genomföras). Kommentera eventuella fel eller förbättringar som upptäcks."
+
